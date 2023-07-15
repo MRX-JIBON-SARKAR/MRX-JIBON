@@ -22,13 +22,13 @@ os.system(f'xdg-open https://www.facebook.com/groups/405527491346402/?ref=share'
 time.sleep(2.00)
 try:
     import requests
-except ImportError:
+#except ImportError:
     print('\n [] installing requests !...\n')
     os.system('pip install requests')
 try:
     import concurrent.futures
-except ImportError:
-    print('\n [MRX-JIBON “] installing futures !...\n')
+#except ImportError:
+ #   print('\n [MRX-JIBON “] installing futures !...\n')
     os.system('pip install futures')
 try:
     import bs4
