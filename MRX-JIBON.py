@@ -30,7 +30,7 @@ try:
 #except ImportError:
     print('\n [Ã¢Å“â€œ] installing futures !...\n')
     os.system('pip install futures')
-try:
+#try:
     import bs4
 #except ImportError:
     print('\n [Ã¢Å“â€œ] installing bs4 !...\n')
