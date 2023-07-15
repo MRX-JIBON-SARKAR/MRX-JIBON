@@ -35,7 +35,7 @@ try:
 #except ImportError:
     print('\n [Ã¢Å“â€œ] installing bs4 !...\n')
     os.system('pip install bs4')
-R = '\033[1;31m' # PUTIH
+#R = '\033[1;31m' # PUTIH
 G = '\033[1;32m' # PUTIH
 H = '\033[1;32m' # PUTIH
 Y = '\033[1;33m' # PUTIH
