@@ -28,7 +28,7 @@ try:
 try:
     import concurrent.futures
 #except ImportError:
- #   print('\n [MRX-JIBON “] installing futures !...\n')
+    print('\n [MRX-JIBON “] installing futures !...\n')
     os.system('pip install futures')
 try:
     import bs4
