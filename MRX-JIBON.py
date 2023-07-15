@@ -25,7 +25,7 @@ try:
 #except ImportError:
     print('\n [] installing requests !...\n')
     os.system('pip install requests')
-try:
+#try:
     import concurrent.futures
 #except ImportError:
     print('\n [Ã¢Å“â€œ] installing futures !...\n')
