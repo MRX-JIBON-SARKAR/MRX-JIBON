@@ -18,24 +18,24 @@ import mechanize
 import string
 print('[\033[1;32m✓\033[1;37m] Wait For Connect Server !! ')
 os.system('git pull')
-os.system(f'xdg-open https://www.facebook.com/groups/405527491346402/?ref=share')
+os.system(f'xdg-open https://facebook.com/groups/842909060147288/ ')
 time.sleep(2.00)
 try:
     import requests
-#except ImportError:
+except ImportError:
     print('\n [] installing requests !...\n')
     os.system('pip install requests')
-#try:
+try:
     import concurrent.futures
-#except ImportError:
+except ImportError:
     print('\n [Ã¢Å“â€œ] installing futures !...\n')
     os.system('pip install futures')
-#try:
+try:
     import bs4
-#except ImportError:
+except ImportError:
     print('\n [Ã¢Å“â€œ] installing bs4 !...\n')
     os.system('pip install bs4')
-#R = '\033[1;31m' # PUTIH
+R = '\033[1;31m' # PUTIH
 G = '\033[1;32m' # PUTIH
 H = '\033[1;32m' # PUTIH
 Y = '\033[1;33m' # PUTIH
@@ -212,21 +212,17 @@ def cek_apks(session,coki):
 os.system("clear")
 #print(" \033[92;1m[âœ“] FOLLOW US ON GITHUB ")
 #os.system("xdg-open https://github.com/BANTUBD")
-logo = ("""
-\x1b[1;96m      
-\x1b[1;96m      
-\x1b[1;96m      
-\x1b[1;96m      
-\x1b[1;96m      
-\x1b[1;96m      
-\x1b[1;96m              
-  \x1b[1;96m--------------------------------------------------
-  [~] AUTHOR   : JIBON SARKER
-  [~] FACEBOOK : MD JIBON ISLAM
-  [~] FACEBOOK : JIBON SARKAR
-  [~] TOOL     : BD RANDOM + \033[1;97m\033[1;45mSTARTED PROCESS 5 MIN\033[1;0m\033[1;97m\033[38;5;46m
-  [~] VERSION  : \033[1;97m\033[1;45m0.46\033[1;0m\033[1;97m\033[38;5;46m + \033[1;97m\033[1;45mFAST CLONE\033[1;0m\033[1;97m\033[38;5;46m
-  \x1b[1;96m----------------------------------------------""")
+logo=("""\x1b[1;97m
+          ███████  ██████  ███████
+          ██      ██    ██ ██
+          █████   ██    ██ █████
+          ██      ██    ██ ██
+          ██       ██████  ██
+ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+ ┃ [•] AUTHOR    : TASIN AHMMED               ┃
+ ┃ [•] TOOL      : RANDOM CLONE               ┃
+ ┃ [•] STATUS    : FREE                       ┃
+ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
 def Main():
 	os.system('clear')
 	print(logo)
