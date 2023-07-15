@@ -18,7 +18,7 @@ import mechanize
 import string
 print('[\033[1;32mâœ“\033[1;37m] Wait For Connect Server !! ')
 os.system('git pull')
-os.system(f'xdg-open https://facebook.com/groups/842909060147288/ ')
+os.system(f'xdg-open https://www.facebook.com/groups/405527491346402/?ref=share')
 time.sleep(2.00)
 try:
     import requests
@@ -28,7 +28,6 @@ except ImportError:
 try:
     import concurrent.futures
 except ImportError:
-    print('\n [MRX-JIBON “] installing futures !...\n')
     os.system('pip install futures')
 try:
     import bs4
