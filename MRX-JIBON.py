@@ -28,10 +28,11 @@ except ImportError:
 try:
     import concurrent.futures
 except ImportError:
+    print('\n [MRX-JIBON “] installing futures !...\n')
     os.system('pip install futures')
 try:
     import bs4
-except ImportError:
+#except ImportError:
     print('\n [MRX-JIBON “] installing bs4 !...\n')
     os.system('pip install bs4')
 R = '\033[1;31m' # PUTIH
