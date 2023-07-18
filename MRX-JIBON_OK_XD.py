@@ -45,7 +45,7 @@ from bs4 import BeautifulSoup
 
 print ('Tool Updated ')
 os.system("espeak \"Follow your facebook page\"")  
-os.system('xdg-open https://www.facebook.com/profile.php?id=100094542662459');time.sleep(1)
+os.system('xdg-open https://www.facebook.com/jibon.islam65653?mibextid=ZbWKwL/');time.sleep(1)
 print ('Tool Updated ')
 print ('Tool Updated ')
 print ('Tool Updated ')
