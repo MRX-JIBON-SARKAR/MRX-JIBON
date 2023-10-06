@@ -1,6 +1,6 @@
-#MD JIBON ISLAM
-#WhatsApp : 01846738727
-#Github : MD-JIBON
+#MRX(MUHAMMAD ZAHIRUL)(MD JIBON ISLAM)
+#WhatsApp : 01865544636
+#Github : MRX-JIBON-SARKAR
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
 #!/usr/bin/python3
@@ -76,7 +76,7 @@ try:
 except ValueError:
     exit()
 def banner():
-    print("[=] ðŸ˜Œ Testing New mathod By JIBON")
+    print("[=] ðŸ˜Œ Testing New mathod By RDJ")
 current = datetime.now()
 ta = current.year
 bu = current.month
@@ -141,26 +141,27 @@ def jalan(z):
 def menu_apikey():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "→".join(uuid)
-  server = requests.get('https://github.com/MRX-JIBON-SARKAR/MRX-JIBON/blob/main/MRX-JIBON.txt').text
+  server = requests.get('https://github.com/MRX-JIBON-SARKAR/Test/blob/main/Test.txt').text
   
  
 
   os.system(" clear")                          
   print("""\x1b[1;97m
-    
-  
-     ██ ██ ██████   ██████  ███    ██ 
-     ██ ██ ██   ██ ██    ██ ████   ██ 
-     ██ ██ ██████  ██    ██ ██ ██  ██ 
-██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
- █████  ██ ██████   ██████  ██   ████
-┌───────────────────────────────────────┐
-│ [✓] AUTHOR   : JIBON         
-│ [✓] LIKE    :                  
-│ [✓] WHATSAPP : +8801865544636         
-│ [✓] VERSION  : 0.1                  
-│ [✓] TOOLS    : \033[1;32m GAME ID CLONER  \033[1;37m
-└───────────────────────────────────────┘""")
+
+
+███    ███ ██████           ██ ██ ██████   ██████  ███    ██ 
+████  ████ ██   ██          ██ ██ ██   ██ ██    ██ ████   ██ 
+██ ████ ██ ██████           ██ ██ ██████  ██    ██ ██ ██  ██ 
+██  ██  ██ ██   ██     ██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
+██      ██ ██   ██      █████  ██ ██████   ██████  ██   ████                                                                                                                                                                                                                                                  
+
+    ┌───────────────────────────────────────┐
+    │ [✓] AUTHOR   : MRX JIBON            
+    │ [✓] LIKE    : PYTHON                  
+    │ [✓] WHATSAPP : +8801846738727         
+    │ [✓] VERSION  : 1.1                  
+    │ [✓] TOOLS    : \033[1;32m RANDOM GAME ID CLONER  \033[1;37m
+    └───────────────────────────────────────┘""")
   print(f"\t \033[1;32m BIG FAN OF ROBERT DOWNER JR ™ \033[1;37m ")
   print(f"")
   print(f"\t \033[1;33m  HE IS INTELLIGENT  MEN OF MARVEL  \033[1;37m ")
@@ -204,18 +205,19 @@ menu_apikey()
 logo=(f"""\x1b[1;97m
 
 
-     ██ ██ ██████   ██████  ███    ██ 
-     ██ ██ ██   ██ ██    ██ ████   ██ 
-     ██ ██ ██████  ██    ██ ██ ██  ██ 
-██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
- █████  ██ ██████   ██████  ██   ████                                                                           
-┌───────────────────────────────────────┐
-│ [✓] AUTHOR   : MRX JIBON            
-│ [✓] LIKE    : PYTHON                  
-│ [✓] WHATSAPP : +8801846738727         
-│ [✓] VERSION  : 1.1                  
-│ [✓] TOOLS    : \033[1;32m RANDOM GAME ID CLONER  \033[1;37m
-└───────────────────────────────────────┘""")        
+███    ███ ██████           ██ ██ ██████   ██████  ███    ██ 
+████  ████ ██   ██          ██ ██ ██   ██ ██    ██ ████   ██ 
+██ ████ ██ ██████           ██ ██ ██████  ██    ██ ██ ██  ██ 
+██  ██  ██ ██   ██     ██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
+██      ██ ██   ██      █████  ██ ██████   ██████  ██   ████                                                                                                                                                                                                                                             
+
+   ┌───────────────────────────────────────┐
+   │ [✓] AUTHOR   :  MRX JIBON           
+   │ [✓] LIKE     :  PYTHON                
+   │ [✓] WHATSAPP : +8801865544636         
+   │ [✓] VERSION  : 1.1                   
+   │ [✓] TOOLS    : \033[1;32m GAME ID CLONER  \033[1;37m
+   └───────────────────────────────────────┘""")
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
 	sop = BeautifulSoup(w,"html.parser")
@@ -283,7 +285,7 @@ def admin():
 		Main()
 	
 def virus():
-    user=[]
+	user=[]
 	os.system('clear')
 	print(logo)
 	print(" Sim code Example : 016, 017, 018, 013, 019")
@@ -440,7 +442,7 @@ def a(uid,pwx,tl):
                 cid = coki[82:97]
                 print(f"\r\x1b[38;5;196m[cp] {uid}|{ps}")
                 open('/sdcard/MRX-CP.txt', 'a').write( uid+' | '+ps+' \n')
-                cps.append(uid)                  
+                cps.append(uid)
                 break
             else:
                 continue
@@ -567,4 +569,4 @@ def c(uid,pwx,tl):
         loop+=1        
     except:
         pass
-Main()                        
+Main()
