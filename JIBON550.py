@@ -147,6 +147,7 @@ def menu_apikey():
 
   os.system(" clear")                          
   print("""\x1b[1;97m
+    
   
      ██ ██ ██████   ██████  ███    ██ 
      ██ ██ ██   ██ ██    ██ ████   ██ 
@@ -193,4 +194,84 @@ def menu_apikey():
     	menu_apikey()
 menu_apikey()
 logo=(f"""\x1b[1;97m
-                                                                       
+
+
+     ██ ██ ██████   ██████  ███    ██ 
+     ██ ██ ██   ██ ██    ██ ████   ██ 
+     ██ ██ ██████  ██    ██ ██ ██  ██ 
+██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
+ █████  ██ ██████   ██████  ██   ████                                                                           
+┌───────────────────────────────────────┐
+│ [✓] AUTHOR   : MRX JIBON            
+│ [✓] LIKE    : PYTHON                  
+│ [✓] WHATSAPP : +8801846738727         
+│ [✓] VERSION  : 1.1                  
+│ [✓] TOOLS    : \033[1;32m RANDOM GAME ID CLONER  \033[1;37m
+└───────────────────────────────────────┘""")        
+def cek_apk(session,coki):
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+	sop = BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	if len(game)==0:
+		print(f"\r{N}[{M}!{N}] SORRY THERE IS NO ACTIVE APK")
+	else:
+		print("")
+		print(f'\r🎮 %sYOUR ACTIVE APPLICATION DETAILS :'%(H))
+		for i in range(len(game)):
+			print("%s%s. %s%s"%(H,i+1,game[i].replace("ACTIVE"," ACTIVE"),N))
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
+	sop = BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	if len(game)==0:
+		print(f"\r{N}[{M}!{N}] SORRY THERE IS NO EXPIRED APK")
+	else:
+		print(f'\r 🎮 %sYOUR EXPIRED APPLICATION DETAILS :'%(M))
+		for i in range(len(game)):
+			print("%s%s. %s%s"%(K,i+1,game[i].replace("Expired"," Expired"),N))
+def Main():
+	os.system('clear')
+	print(logo)
+	print('   [1] BD Number Cloner [CP-OK MIX] ')
+	print("   [2] BD Number cloner [Only Ok]")
+	print("   [3] BD Number cloner [APK] ")
+	print("   [4] Contract Admin [Report a problem]")
+	print('   [0] Back')
+	print(54*'_')
+	opt = input('Choose option >>> ')
+	if opt =='1':
+		virus()
+	if opt =='2':
+		virus2()
+	if opt =='3':
+		virus3()
+	if opt =='4':
+		admin()
+	elif opt =='0':
+		exit()
+	else:
+		print('\n\033[1;92mChoose valid option\033[0;97m');time.sleep(1)
+		Main()
+def admin():
+	os.system('clear')
+	print(logo)
+	print(50*'_')
+	print(' [1] Contract WhatsApp ')
+	print(' [2] Follow Facebook Page')
+	print(' [3] Follow Facebook Profile')
+	print(' [0] Back to Main menu')
+	bal = input('Choose option >>> ')
+	if bal =='1':
+		os.system('xdg-open https://wa.me/+8801846738727');time.sleep(1)
+		admin()
+	if bal =='2':
+		os.system('xdg-open https://www.facebook.com/profile.php?id=61551394177803&mibextid=ZbWKwL');time.sleep(1)
+		admin()
+	if bal =='3':
+		os.system('xdg-open https://www.facebook.com/jibon.islam65653?mibextid=ZbWKwL');time.sleep(1)
+		admin()
+	if bal =='0':
+		Main()
+	
+def virus():                                                              
