@@ -179,4 +179,18 @@ def menu_apikey():
       msg = str(os.geteuid())
       time.sleep(0.5)
       pass
-    else:                                                                      
+    else:
+      
+      print(f"\x1b[1;92m    Sorry Bro Your Key not Aproved ")
+      print(f"    Send payment to Admin and get aproval"); time.sleep(2)
+      os.system(f'xdg-open https://wa.me/+8801846738727?text='+id)
+      time.sleep(2)
+      sys.exit()
+  except:
+    sys.exit()
+    if name == '__main__':
+    	print(logo)
+    	menu_apikey()
+menu_apikey()
+logo=(f"""\x1b[1;97m
+                                                                       
