@@ -133,10 +133,10 @@ logo=("""
 \033[32;1m ██  ██  ██ ██   ██     ██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
 \033[33;1m ██      ██ ██   ██      █████  ██ ██████   ██████  ██   ████                                                                                  
 ┌───────────────────────────────────────┐
-│ [✓] AUTHOR   : MRX JIBON            
-│ [✓] LIKE    :                
+│ [✓] AUTHOR   :  MRX JIBON            
+│ [✓] LIKE     :                
 │ [✓] WHATSAPP : +8801846738xxx         
-│ [✓] VERSION  : 00               
+│ [✓] VERSION  :  0.1              
 │ [✓] TOOLS    : \033[1;32m GAME ID CLONER  \033[1;37m
 └───────────────────────────────────────┘""")
 
@@ -165,13 +165,13 @@ def cek_apk(session,coki):
 def Main():
 	os.system('clear')
 	print(logo)
-	print("[\033[1;37m01]\33[1;92mGAME ID CLONER")
-	print("[\033[1;37m02]\33[1;92mCONTACT ADMIN")
-	print("[\033[1;37m03]\33[1;92mFOLLOW MY FB PROFILE")
-	print("[\033[1;37m04]\33[1;92mJOIN MESSENGER GROUP")
-	print('[\033[1;37m00]\33[1;92mEXIT PROGRAMMING')
+	print("[\033[1;37m01] \33[1;92mGAME ID CLONER")
+	print("[\033[1;37m02] \33[1;92mCONTACT ADMIN")
+	print("[\033[1;37m03] \33[1;92mFOLLOW MY FB PROFILE")
+	print("[\033[1;37m04] \33[1;92mJOIN MESSENGER GROUP")
+	print('[\033[1;37m00] \33[1;92mEXIT PROGRAMMING')
 	print(54*'━')
-	opt = input('Choose option >>> ')
+	opt = input('Choose option - ')
 	if opt in ["A","1"]:
 		virusA()
 	if opt in ["B","2"]:
