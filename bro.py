@@ -187,7 +187,7 @@ def Main():
 		os.system('xdg-open https://www.facebook.com/profile.php?id=100093402519904');time.sleep(1)
 		fb()
 	if opt in ["D","4"]:
-		os.system('xdg-open https://wa.me/+8801780210942');time.sleep(1)
+		os.system('xdg-open https://wa.me/+8801846738727');time.sleep(1)
 		group()
 	if opt in ["0","0"]:
 		exit()
@@ -205,7 +205,7 @@ def admin():
 	print(' [0] Back to Main menu')
 	bal = input('Choose option >>> ')
 	if bal =='1':
-		os.system('xdg-open https://wa.me/+8801916564949');time.sleep(1)
+		os.system('xdg-open https://wa.me/+8801846738727');time.sleep(1)
 		admin()
 	if bal =='2':
 		os.system('xdg-open https://www.facebook.com/MDMehedi191');time.sleep(1)
@@ -312,7 +312,7 @@ def superuser():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/Masud-Hridoye404/PAID-TEST/blob/main/CONTROL.tex").text
+    DARK=requests.get("https://github.com/MRX-JIBON-SARKAR/MRX-JIBON/blob/main/MRX-JIBON.txt").text
     if id in DARK:
         Main()
     else:
