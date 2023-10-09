@@ -136,12 +136,12 @@ logo=("""
 │ [✓] AUTHOR   :  MRX JIBON            
 │ [✓] LIKE     :                
 │ [✓] WHATSAPP : +8801846738xxx         
-│ [✓] VERSION  :  0.1              
+│ [✓] VERSION  :  0.2             
 │ [✓] TOOLS    : \033[1;32m GAME ID CLONER  \033[1;37m
 └───────────────────────────────────────┘""")
 
 def cek_apk(session,coki):
-	w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
 	sop = BeautifulSoup(w,"html.parser")
 	x = sop.find("form",method="post")
 	game = [i.text for i in x.find_all("h3")]
@@ -152,7 +152,7 @@ def cek_apk(session,coki):
 		print(f'\r🎮 %sYOUR ACTIVE APPLICATION DETAILS :'%(H))
 		for i in range(len(game)):
 			print("%s%s. %s%s"%(H,i+1,game[i].replace("ACTIVE"," ACTIVE"),N))
-	w=session.get("https://x.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
 	sop = BeautifulSoup(w,"html.parser")
 	x = sop.find("form",method="post")
 	game = [i.text for i in x.find_all("h3")]
