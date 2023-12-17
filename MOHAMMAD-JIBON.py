@@ -324,7 +324,7 @@ def approval():
       print('\x1b[38;5;83mSend Pay And Give Ss And Send Me Key Or Ss Me Whatsapp')
       print('\33[1;37m----------------------------------------------')
       input('\x1b[38;5;83mIF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801935845884?text='+tks),approval()
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801865544636?text='+tks),approval()
       time.sleep(1)
       approval()
   except:
@@ -341,11 +341,11 @@ def menu():
 	print ("\033[1;97m[3]\033[1;33m MY FACEBOOK ID")
 	ot = input('\n   \x1b[1;32m Choose Option ➤ ')
 	if ot == '1':
-		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
+		os.system('xdg-open https://www.facebook.com/Zahirul550?mibextid=JRoKGi')
 		crack_file()
 		
 	if ot == '2':
-		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
+		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share')
 		rndm()
 		
 	if ot == '3':
@@ -367,13 +367,13 @@ def menu1():
 	print ("\033[1;97m     [3]\033[1;33m FB GROUP")
 	ot = input('\n   \x1b[1;32m Choose option ➤ ')
 	if ot == '1':
-		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
+		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share')
 		crack_file()
 	if ot == '2':
-		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
+		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share')
 		rndm()
 	if ot == '3':
-		os.system('xdg-open https://www.facebook.com/groups/1302330730660806/?ref=share&mibextid=NSMWBT')
+		os.system('xdg-open https://www.facebook.com/groups/342768401810426/?ref=share')
 
 	else:
 		menu()
