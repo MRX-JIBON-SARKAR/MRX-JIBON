@@ -1,5 +1,5 @@
- Decompile by Mardis (Tools By Kapten-MUHAMMAD JIBON)
- Time Succes decompile : 2023-02-25 22:37:39.359505
+#Decompile by Mardis (Tools By Kapten-MUHAMMAD JIBON)
+#Time Succes decompile : 2023-02-25 22:37:39.359505
 import os
 import sys
 import time
