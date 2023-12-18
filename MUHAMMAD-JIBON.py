@@ -1,5 +1,5 @@
-# Decompile by Mardis (Tools By Kapten-MUHAMMAD JIBON)
-# Time Succes decompile : 2023-02-25 22:37:39.359505
+ Decompile by Mardis (Tools By Kapten-MUHAMMAD JIBON)
+ Time Succes decompile : 2023-02-25 22:37:39.359505
 import os
 import sys
 import time
@@ -280,9 +280,9 @@ logo=("""
 \x1b[38;5;85m████  ████ ██   ██         ██ ██ ██   ██ ██    ██ ████   ██ 
 \x1b[38;5;84m██ ████ ██ ██████          ██ ██ ██████  ██    ██ ██ ██  ██ 
 \x1b[38;5;83m██  ██  ██ ██   ██    ██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
-\x1b[38;5;85m██      ██ ██   ██ ██  █████  ██ ██████   ██████  ██   ████ \x1b[38;5;83m✧ 2024
+\x1b[38;5;85m██      ██ ██   ██ ██  █████  ██ ██████   ██████  ██   ████
 \x1b[38;5;77m──────────────────────────────────────────────                 
-\x1b[38;5;83m〘✧〙DEVLOPER  \x1b[38;5;222m➤  \x1b[38;5;85m MOHAMMAD JIBON
+\x1b[38;5;83m〘✧〙DEVLOPER  \x1b[38;5;222m➤  \x1b[38;5;85m MOHAMMAD JIBON ✧ 2024
 \x1b[38;5;83m〘✧〙FACEBOOK  \x1b[38;5;222m➤  \x1b[38;5;85m MOHAMMAD ZAHIRUL
 \x1b[38;5;83m〘✧〙WHATSAPP  \x1b[38;5;222m➤   \x1b[38;5;85m+8801846738727 ✧ WH & BK
 \x1b[38;5;83m〘✧〙TOOLS     \x1b[38;5;222m➤   \x1b[38;5;85mFILE CLONING ✧ RANDOM CLONE
