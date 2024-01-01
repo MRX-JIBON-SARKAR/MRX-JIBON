@@ -14,7 +14,7 @@ except requests.exceptions.ConnectionError:
 try:
     import requests
 except ImportError:
-    print('\n \033[1;91m[\033[1;93mMAHADI-143\033[1;91m]\033[1;97m installing requests !...\n')
+    print('\n \033[1;91m[\033[1;93mZAHIRUL-143\033[1;91m]\033[1;97m installing requests !...\n')
     time.sleep(0.5)
     os.system('pip install requests')
 import bs4,json,sys,random,datetime,time,re,subprocess,platform,struct,requests
@@ -30,13 +30,13 @@ import string
 try:
     import concurrent.futures
 except ImportError:
-    print('\n \033[1;91m[\033[1;93mMAHADI-143\033[1;91m]\033[1;97m installing futures !...\n')
+    print('\n \033[1;91m[\033[1;93mZAHIRUL-143\033[1;91m]\033[1;97m installing futures !...\n')
     time.sleep(0.5)
     os.system('pip install futures')
 try:
     import bs4
 except ImportError:
-    print('\n \033[1;91m[\033[1;93mMAHADI-143\033[1;91m]\033[1;97m installing bs4 !...\n')
+    print('\n \033[1;91m[\033[1;93mZAHIRUL-143\033[1;91m]\033[1;97m installing bs4 !...\n')
     time.sleep(0.5)
     os.system('pip install bs4')
 import os
@@ -208,13 +208,13 @@ os.system('xdg-open https://www.facebook.com/M4HADI.143')
 def logo():
     os.system('clear')
     print(f"""                   {green}┏━━━━━━━━━━━━━━━━━━━┓{green}
-                   {green}┃{white}{faltu}MAHADI HASAN AFRIDI{pvt}{green}┃
+                   {green}┃{white}{faltu}ZAHIRUL HASAN JIBON{pvt}{green}┃
 {green}╔━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━┳━━━━━┻━━━━━━━━━━━━━━━━━━━╗
-{green}┃{white}╔╦╗{green}╔═╗{rad}╦ ╦{yellow}╔═╗{cyan}╔╦╗{yelloww}╦ {rad}╔═╗╔═╗╔═╗╔═╗╔╦╗{green}┃{purple}CEO {yelloww}: {yellow}MAHADI HASAN AFRIDI{green}┃
+{green}┃{white}╔╦╗{green}╔═╗{rad}╦ ╦{yellow}╔═╗{cyan}╔╦╗{yelloww}╦ {rad}╔═╗╔═╗╔═╗╔═╗╔╦╗{green}┃{purple}CEO {yelloww}: {yellow}ZAHIRUL HASAN JIBON{green}┃
 {green}┃{white}║║║{green}╠═╣{rad}╠═╣{yellow}╠═╣{cyan} ║║{yelloww}║{yellow}X{white}╚═╗║╣ ╠╣ ╠═╣ ║{green} ┃{purple}CEO {yelloww}: {green}JIBON SARKER       {green}┃
-{green}┃{white}╩ ╩{green}╩ ╩{rad}╩ ╩{yellow}╩ ╩{cyan}═╩╝{yelloww}╩ {rad}╚═╝╚═╝╚  ╩ ╩ ╩ {green}┃{purple}GIT {yelloww}: {cyan}SEFAT-MAHADI       {green}┃
+{green}┃{white}╩ ╩{green}╩ ╩{rad}╩ ╩{yellow}╩ ╩{cyan}═╩╝{yelloww}╩ {rad}╚═╝╚═╝╚  ╩ ╩ ╩ {green}┃{purple}GIT {yelloww}: {cyan}JIBON-ZAHIRUL       {green}┃
 {green}┣━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┻━━━━━━┳━━━━━━━━━━━━━━━━━━┫
-{green}┃ {green}TOOL : {yelloww}BD RANDOM {green}{green}┃ {green}WP {yelloww}: {blue}+8801875983553{green}┃  {yelloww}VERSION {green}: {rad}0.19  {green}┃
+{green}┃ {green}TOOL : {yelloww}BD RANDOM {green}{green}┃ {green}WP {yelloww}: {blue}+8801846738727{green}┃  {yelloww}VERSION {green}: {rad}0.19  {green}┃
 {green}╚━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━╝""")
 
 def linex():
