@@ -209,11 +209,13 @@ def logo():
     os.system('clear')
     print(f"""                   {green}┏━━━━━━━━━━━━━━━━━━━┓{green}
                    {green}┃{white}{faltu}ZAHIRUL HASAN JIBON{pvt}{green}┃
-{white}███████  {green}█████  {rad}██   ██ ██ {yellow}██████  {rad}██    ██ ██      {green}██   ██      ██ ██ ██████   {purple}██████  ███    ██ 
-   {white}███  {green}██   ██ ██   {rad}██ ██ ██   {yellow}██ ██    {rad}██ ██       ██ ██       {green}██ ██ ██   ██ ██    ██ {purple}████   ██ 
-  {white}███   {green}███████ {rad}███████ ██ {yellow}██████  {rad}██    ██ ██        {green}███        ██ ██ ██████  ██    ██ ██ ██  ██ 
- {white}███    {green}██   ██ ██   {rad}██ ██ ██   {yellow}██ ██    {rad}██ ██       ██ ██  {green}██   ██ ██ ██   ██ ██    {purple}██ ██  ██ ██ 
-{white}███████ {green}██   ██ ██   {rad}██ ██ ██   {yellow}██  {rad}██████  ███████ ██   {green}██  █████  ██ ██████   {purple}██████  ██   ████ """)
+{green}╔━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━┳━━━━━┻━━━━━━━━━━━━━━━━━━━╗
+{green}┃{white}╔╦╗{green}╔═╗{rad}╦ ╦{yellow}╔═╗{cyan}╔╦╗{yelloww}╦ {rad}╔═╗╔═╗╔═╗╔═╗╔╦╗{green}┃{purple}CEO {yelloww}: {yellow}ZAHIRUL HASAN JIBON{green}┃
+{green}┃{white}║║║{green}╠═╣{rad}╠═╣{yellow}╠═╣{cyan} ║║{yelloww}║{yellow}X{white}╚═╗║╣ ╠╣ ╠═╣ ║{green} ┃{purple}CEO {yelloww}: {green}JIBON SARKER       {green}┃
+{green}┃{white}╩ ╩{green}╩ ╩{rad}╩ ╩{yellow}╩ ╩{cyan}═╩╝{yelloww}╩ {rad}╚═╝╚═╝╚  ╩ ╩ ╩ {green}┃{purple}GIT {yelloww}: {cyan}JIBON-ZAHIRUL      {green}┃
+{green}┣━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┻━━━━━━┳━━━━━━━━━━━━━━━━━━┫
+{green}┃ {green}TOOL : {yelloww}BD RANDOM {green}{green}┃ {green}WP {yelloww}: {blue}+8801846738727{green}┃  {yelloww}VERSION {green}: {rad}0.19  {green}┃
+{green}╚━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━╝""")
 
 def linex():
         print(f'{green}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
