@@ -209,12 +209,11 @@ def logo():
     os.system('clear')
     print(f"""                   {green}┏━━━━━━━━━━━━━━━━━━━┓{green}
                    {green}┃{white}{faltu}ZAHIRUL HASAN JIBON{pvt}{green}┃
-{green}╔━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━┳━━━━━┻━━━━━━━━━━━━━━━━━━━╗
 {white}███████  {green}█████  {rad}██   ██ ██ {yellow}██████  {rad}██    ██ ██      {green}██   ██      ██ ██ ██████   {purple}██████  ███    ██ 
    {white}███  {green}██   ██ ██   {rad}██ ██ ██   {yellow}██ ██    {rad}██ ██       ██ ██       {green}██ ██ ██   ██ ██    ██ {purple}████   ██ 
   {white}███   {green}███████ {rad}███████ ██ {yellow}██████  {rad}██    ██ ██        {green}███        ██ ██ ██████  ██    ██ ██ ██  ██ 
  {white}███    {green}██   ██ ██   {rad}██ ██ ██   {yellow}██ ██    {rad}██ ██       ██ ██  {green}██   ██ ██ ██   ██ ██    {purple}██ ██  ██ ██ 
-{white}███████ {green}██   ██ ██   {rad}██ ██ ██   {yellow}██  {rad}██████  ███████ ██   {green}██  █████  ██ ██████   {purple}██████  ██   ████ 
+{white}███████ {green}██   ██ ██   {rad}██ ██ ██   {yellow}██  {rad}██████  ███████ ██   {green}██  █████  ██ ██████   {purple}██████  ██   ████ """)
 
 def linex():
         print(f'{green}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
